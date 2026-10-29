@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.log
+.ipynb_checkpoints/
+data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+app_state/
+.streamlit/secrets.toml

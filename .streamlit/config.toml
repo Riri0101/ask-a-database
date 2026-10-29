@@ -1,0 +1,55 @@
+[server]
+# Uploaded CSVs are capped at 5 MB each (the app checks this too).
+maxUploadSize = 5
+
+[client]
+# Hide Streamlit's developer toolbar ("Deploy", rerun options) from visitors.
+toolbarMode = "viewer"
+
+# ---- Theme: an analytics workspace, in light and dark ----
+# Shared settings (fonts, shapes) go in [theme]; colors per mode in [theme.light] / [theme.dark].
+[theme]
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap, sans-serif"
+headingFont = "Space Grotesk:https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap, sans-serif"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap, monospace"
+baseFontSize = 15
+baseRadius = "0.55rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+showSidebarBorder = true
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+metricValueFontSize = "2.6rem"
+metricValueFontWeight = 600
+linkUnderline = false
+
+[theme.light]
+primaryColor = "#0F766E"
+backgroundColor = "#F7F6F2"
+secondaryBackgroundColor = "#EDEBE4"
+textColor = "#1B2321"
+borderColor = "#DAD7CE"
+linkColor = "#0F766E"
+codeBackgroundColor = "#EFEDE6"
+dataframeHeaderBackgroundColor = "#EFEDE6"
+chartCategoricalColors = ["#0F766E", "#C2410C", "#6D28D9", "#B45309", "#0369A1"]
+
+[theme.light.sidebar]
+backgroundColor = "#EFEDE6"
+secondaryBackgroundColor = "#F7F6F2"
+borderColor = "#DAD7CE"
+
+[theme.dark]
+primaryColor = "#2BB3A3"
+backgroundColor = "#0E1312"
+secondaryBackgroundColor = "#18201F"
+textColor = "#E3E9E7"
+borderColor = "#2A3533"
+linkColor = "#5ED3C4"
+codeBackgroundColor = "#141B1A"
+dataframeHeaderBackgroundColor = "#18201F"
+chartCategoricalColors = ["#2BB3A3", "#F59E0B", "#A78BFA", "#FBBF24", "#38BDF8"]
+
+[theme.dark.sidebar]
+backgroundColor = "#121918"
+secondaryBackgroundColor = "#0E1312"
+borderColor = "#2A3533"
