@@ -2,7 +2,7 @@
 
 An AI agent that answers business questions about a database in plain English, measured on 2,000+ benchmark questions and built to show its work.
 
-**Live demo:** _coming soon_ <!-- add the deployed app link here -->
+**Live demo:** [ask-a-database.streamlit.app](https://ask-a-database.streamlit.app)
 
 ---
 
